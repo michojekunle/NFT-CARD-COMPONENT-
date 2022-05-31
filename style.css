@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color:  hsl(217, 54%, 11%);
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    width: 320px;
+    padding: 22px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 24px 2px #231F20;
+}
+
+
+
+.content {
+    padding: 15px 0;
+}
+.content>h2 {
+    padding-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.content>h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.image {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 270px;
+    height: 270px;
+    background-color: hsl(178, 100%, 50%);
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: 100% 100%;
+    transition: 0.8;
+}
+
+.image:hover {
+    background-color: hsl(178, 100%, 50%);
+}
+
+.view {
+    position: relative;
+    align-self: center;
+    padding: 112px 112px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    border-radius: 20px;
+}
+
+.view:hover {
+    opacity: 0.7;  
+    cursor: pointer;
+
+}
+
+
+
+
+
+.content>p {
+    color: hsl(215, 51%, 70%);
+    padding-top: 20px;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border: none;
+    border-bottom:1px solid hsl(215, 51%, 70%) ;
+}
+
+.eth>p {
+    align-items: center;
+}
+
+.lt, .rt{
+    display: flex;
+    align-items: center;
+}
+.eth span {
+    color: hsl(178, 100%, 50%);
+}
+
+#d3 {
+    color: hsl(215, 51%, 70%);
+}
+
+.crt {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.img-avatar {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+}
+
+.crt>p {
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.name{
+    color: #ffffff;
+}
+
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution { 
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    bottom: 0;
+    top: 95vh;
+    color:#ffffff;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
